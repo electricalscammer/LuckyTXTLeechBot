@@ -58,9 +58,9 @@ bot = Client("bot",
              bot_token=os.environ.get("BOT_TOKEN"),
              api_id=int(os.environ.get("API_ID")),
              api_hash=os.environ.get("API_HASH"))
-auth_users = [1993514215,5593976733,5735651588]
+auth_users = [1477222048,5003073626]
 sudo_users = auth_users
-sudo_groups = [-1001650591443]
+sudo_groups = [-1002051749777]
 
 shell_usage = f"**USAGE:** Executes terminal commands directly via bot.\n\n<pre>/shell pip install requests</pre>"
 def one(user_id):
@@ -610,7 +610,7 @@ async def account_login(bot: Client, m: Message):
             name = f'{str(count).zfill(3)}) {name1}'
             Show = f"**Downloading:-**\n\n**Name :-** `{name}`\n\n**Url :-** `{url}`\n\n`"
             prog = await m.reply_text(Show)
-            cc = f'**Name »** {name1}.mp4\n**Batch »** {raw_text5}\n**Index »** {str(count).zfill(3)}\n\n**Download BY** :- Group Admin'
+            cc = f'**Name »** {name1}.mp4\n**Batch »** {raw_text5}\n**Index »** {str(count).zfill(3)}\n\n**Download BY** :- Electrica Hacker
             if "vision" or "youtu" in url:
                 cmd = f'yt-dlp "{url}" -o "{name}"'
             elif "player.vimeo" in url:
@@ -777,7 +777,7 @@ async def account_login(bot: Client, m: Message):
             name = f'{str(count).zfill(3)}) {name1}'
             Show = f"**Downloading:-**\n\n**Name :-** `{name}`\n\n**Url :-** `{url}`\n\n`"
             prog = await m.reply_text(Show)
-            cc = f'**Name »** {name1}.mp4\n**Batch »** {raw_text5}\n**Index »** {str(count).zfill(3)}\n\n**Download BY** :- Group Admin'
+            cc = f'**Name »** {name1}.mp4\n**Batch »** {raw_text5}\n**Index »** {str(count).zfill(3)}\n\n**Download BY** :- Electric Hacker '
             if "olive" or "youtu" in url:
                 cmd = f'yt-dlp "{url}" -o "{name}"'
             elif "player.vimeo" in url:
